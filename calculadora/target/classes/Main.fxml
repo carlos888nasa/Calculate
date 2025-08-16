@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.effect.Bloom?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="598.0" prefWidth="377.0" style="-fx-background-color: #fffefe;" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SceneController">
+
+    <children>
+        <Button layoutX="14.0" layoutY="355.0" mnemonicParsing="false" onAction="#handleNumberButton" text="7" textOverrun="WORD_ELLIPSIS">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Button>
+        <Button layoutX="14.0" layoutY="417.0" mnemonicParsing="false" onAction="#handleNumberButton" text="4">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Button>
+        <Button layoutX="14.0" layoutY="479.0" mnemonicParsing="false" onAction="#handleNumberButton" text="3">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Button>
+        <Button layoutX="87.0" layoutY="355.0" mnemonicParsing="false" onAction="#handleNumberButton" text="8">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Button>
+        <Button layoutX="87.0" layoutY="417.0" mnemonicParsing="false" onAction="#handleNumberButton" text="5">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Button>
+        <Button layoutX="87.0" layoutY="479.0" mnemonicParsing="false" onAction="#handleNumberButton" text="2">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Button>
+        <Button layoutX="156.0" layoutY="355.0" mnemonicParsing="false" onAction="#handleNumberButton" text="9">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Button>
+        <Button layoutX="156.0" layoutY="417.0" mnemonicParsing="false" onAction="#handleNumberButton" text="6">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Button>
+        <Button layoutX="156.0" layoutY="479.0" mnemonicParsing="false" onAction="#handleNumberButton" text="1">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Button>
+      <Button layoutX="14.0" layoutY="541.0" mnemonicParsing="false" onAction="#handleNumberButton" text="0" />
+        <Label fx:id="displayLabel" layoutX="17.0" layoutY="48.0" prefHeight="150.0" prefWidth="332.0">
+            <font>
+                <Font size="63.0" />
+            </font>
+        </Label>
+        <MenuButton layoutX="268.0" mnemonicParsing="false" text="MenuButton">
+            <items>
+                <MenuItem mnemonicParsing="false" text="Unspecified Action" />
+                <MenuItem mnemonicParsing="false" text="Action 3" />
+                <MenuItem mnemonicParsing="false" text="Action 2" />
+                <MenuItem mnemonicParsing="false" text="Action 1" />
+            </items>
+        </MenuButton>
+      <Button layoutX="240.0" layoutY="355.0" mnemonicParsing="false" onAction="#handleNumberButton" text="DEL">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <effect>
+            <Bloom />
+         </effect>
+      </Button>
+      <Button layoutX="308.0" layoutY="355.0" mnemonicParsing="false" onAction="#handleNumberButton" text="AC">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="240.0" layoutY="417.0" mnemonicParsing="false" onAction="#handleNumberButton" text="x" />
+      <Button layoutX="240.0" layoutY="479.0" mnemonicParsing="false" onAction="#handleNumberButton" text="+">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="308.0" layoutY="417.0" mnemonicParsing="false" onAction="#handleNumberButton" text="÷">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="308.0" layoutY="479.0" mnemonicParsing="false" onAction="#handleNumberButton" text="-">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="87.0" layoutY="541.0" mnemonicParsing="false" onAction="#handleNumberButton" text="." />
+      <Button layoutX="308.0" layoutY="541.0" mnemonicParsing="false" onAction="#handleNumberButton" text="=" />
+      <Button layoutX="239.0" layoutY="541.0" mnemonicParsing="false" onAction="#handleNumberButton" text="Ans">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+    </children>
+
+</AnchorPane>
